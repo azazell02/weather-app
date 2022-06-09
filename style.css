@@ -1,0 +1,133 @@
+.contanier {
+  border-radius: 20px;
+  padding: 10px 30px;
+  background: rgb(0, 157, 255);
+  display: none;
+}
+.contanier.active{
+  display: block;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 15vh;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left select {
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+  color: white;
+  border: none;
+  background: rgb(0, 157, 255);
+  padding: 20px 20px;
+}
+.rigth {
+  display: flex;
+  align-items: center;
+}
+.images {
+  height: 27vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graduses {
+
+padding: ;
+  background: rgba(255, 255, 255, 0.548);
+  border-radius: 20px;
+}
+
+.button a {
+  cursor: pointer;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444e72;
+  background: #ffffff;
+  box-shadow: -4px 8px 50px 4px rgba(0, 0, 0, 0.1),
+    inset 2px -3px 6px rgba(0, 0, 0, 0.25),
+    inset -6px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+.button {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  height: 50px;
+  padding: 17px;
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.gradus {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  padding-left: 20px;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 127px;
+  color: #ffffff;
+  text-shadow: -4px 8px 50px rgba(0, 0, 0, 0.1);
+}
+.weather {
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.sun,
+.rain {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+  margin: 0 auto;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.rain p {
+  padding-right: 34px;
+}
+.button a:hover {
+  background-color: rgb(143, 206, 206);
+}

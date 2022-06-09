@@ -1,0 +1,12 @@
+// ${
+//       data.hourly.forEach((el,index) => {
+//         let time = data.hourly[index].dt;
+//         let date = new Date(+time * 1000);
+//         let h, m, s;
+//         h = date.getHours();
+//         m = date.getMinutes();
+//         s = date.getSeconds();
+//         let correct_date = h + ':' + m + '0';``
+//         `<p>${correct_date}</p>`
+//       })
+//      }
